@@ -1,0 +1,46 @@
+What is Feature Extraction?
+Feature extraction is a part of the dimensionality reduction process. In which an initial set of the raw data is divided and reduced to more manageable groups. So when you want to process it will be easier. A main and most important characteristic of these large data sets is that they have a large number of variables. These variables require a lot of computing resources to process them. So  Feature extraction basically helps to get the best feature from those big data sets by select and /or combine variables into features, effectively reducing the amount of data. These features are easy to process, but still able to describe the actual data set with the accuracy and originality.
+
+Why Feature Extraction is Useful?
+The technique of extracting the features is useful when you have a huge data set and need to reduce the number of resources without losing important or relevant information. Feature extraction helps to reduce the amount of redundant data from the data set.
+
+In the end, the reduction of the data helps to build the model with less machine’s efforts and also increase the speed of learning and generalization steps in the machine learning process.
+
+Applications of Feature Extraction
+Bag of Words- Bag-of-Words is the most used technique for natural language processing. In this process they extract the words or the features from a sentence, document, website, etc. and then they classify them into the frequency of use. So in this whole process feature extraction is one of the most important parts.
+Image Processing –Image processing is one of the best and most interesting domain. In this domain basically you will start playing with your images in order to understand them. So here we use many many techniques which includes feature extraction as well and algorithms to detect features such as shaped, edges, or motion in a digital image or video to process them.
+Auto-encoders: The main  purpose of the auto-encoders is efficient data coding which is unsupervised in nature. this process comes under unsupervised learning . So Feature extraction procedure is applicable here to identify the key features from the data to code by learning from the coding of the original data set to derive new ones.
+
+How to Store Images in the Machine?
+So in this section, we will start with from scratch. For the first thing, we need to understand how a machine can read and store images. Loading the image, read them and then process them through the machine is difficult because machine does not have eyes like us.
+
+Let’s have a look at how a machine understand an image?
+
+Machines see any images in the form of a matrix of numbers. The size of this matrix actually depends on the number of pixels of the input image.
+
+So what is pixel?
+
+The Pixel Values for each of the pixels stands for or describe  how bright that pixel is, and/or what colour it should be. So In the simplest case of the binary images, the pixel value is a 1-bit number indicating either foreground or background.
+
+So pixels are the numbers, or the pixel values which  denote the intensity or brightness of the pixel.
+
+Smaller numbers which is closer to zero helps to represent black, and the larger numbers which is closer to 255 denote white.
+
+So this is the concept of pixels and how machine sees the images without eyes through the numbers.
+
+
+feature extraction in Image processing
+The dimensions of the image  28 x 28. And if you want to check then by counting the number of pixels you can verify.
+
+But, for the case of a coloured image, we have  three Matrices or the channels
+
+Red,
+Green
+and Blue.
+So in these three matrices, each of the matrix has values between 0-255 which represents the intensity of the colour of that pixel.
+
+
+If you  have a coloured image like the dog image we have in the above image on the left. so being a human you have eyes so you can see and can say it is a dog coloured image. But how computer can understand it is coloured or black and white image?
+
+So you can see we also have a three matrices which represents the channel of RGB – (for the three color channels – Red, Green, and Blue) On the right, we have three matrices. These three channels are superimposed and used to form a coloured image.  So this is how a computer can differentiate between the images.
+
